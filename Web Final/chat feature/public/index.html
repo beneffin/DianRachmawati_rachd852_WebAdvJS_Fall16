@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <meta name="format-detection" content="telephone=no">
+  <title>Ask me everything</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <ol id = "header">
+      <li><a href="dearyoungdesigner.diansoraya.com" id="nav">/Home</a></li>
+      <li><a href="../about.html" id="nav">/About</a></li>
+      <li><a href="../chat.html" id="nav">/AMA</a></li> 
+      <li><a href="../vr.html" id="nav">/VR Experience - the future of jobs</a></li>  
+    </ol>
+    <nav id = "mobile">   
+    </nav>
+  </header>
+  <ul class="pages">
+  <h2>Ask me anything is where you can anonymously ask questions and get answers from experienced designers who come from the startup, agency, and big software company worlds.</h2>
+    <h1>Ask Me Anything (AMA) with Jennie Corbett. Art Director iStrategy Labs</h1>
+  
+    <div id="Profile"> 
+        <image><img src="../img/Jennie.png" id="ama_p"></image>
+        <p>Jennie Corbett<br>
+        Hometown: Yreka, CA<br>
+        School: UC Davis, San Francisco State<br>
+        Concentration: Design, MBA<br>
+        Companies: Asana, Intuit, Yahoo<br>
+        Specialties: Enterprise UX, Product Design, Branding, Research<br>
+        Why?: Jennie is perhaps best-known for her work in enterprise design and making some of the most complex interfaces clear and intuitive. She has brought her expertise to a number of notable of companies in the Valley including: Oracle, Yahoo!, and Intuit, where she notably led the redesign of Quickbooks. Today, Jennie heads up design at the fast-growing team productivity startup, Asana.<br>
+        More about Jennie: Amanda’s ebook about the future of enterprise UX can be found here. Read her article on enabling great product design here.</p></div>
+
+    <li class="chat page">
+      <div class="chatArea">
+        <ul class="messages"></ul>
+      </div>
+      <input class="inputMessage" placeholder="Type here..."/>
+    </li>
+    <li class="login page">
+      <div class="form">
+        <h3 class="title">Your nickname</h3>
+        <input class="usernameInput" type="text" maxlength="14" />
+        <!-- <button>Join Chat</button> -->
+      </div>
+    </li>
+  </ul>
+
+  <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/main.js"></script>
+</body>
+</html>
